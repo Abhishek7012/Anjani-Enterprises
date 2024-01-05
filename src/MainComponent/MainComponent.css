@@ -1,0 +1,154 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 0px 20px;
+  background-color: #ff8c00;
+  position: relative;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.section-logo {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.section-logo img {
+  width: 50px;
+  max-width: 50px;
+  height: auto;
+}
+
+.section-logo img:hover {
+  transform: scale(1.2);
+}
+
+.section-navigation {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+
+  li:hover {
+    color: #007bff;
+  }
+}
+
+.section-navigation a {
+  color: black;
+  text-decoration: none;
+}
+
+.section-navigation a:hover {
+  text-decoration: underline;
+}
+
+.toggle-button {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .section-navigation {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #ff8c00;
+  }
+
+  .section-navigation.open {
+    display: flex;
+  }
+
+  .main-section.menu-open {
+    position: relative;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .toggle-button.collapsed {
+    background-color: #007bff;
+  }
+
+  .section-navigation.collapsed {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-logo{
+    background-color: red;
+  }
+  /* .main-section {
+    flex-direction: column;
+    
+  } */
+
+  .section-navigation {
+    margin-top: 10px;
+  }
+
+  .section-navigation ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-navigation li {
+    margin: 5px 0;
+  }
+
+  .toggle-button {
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .toggle-button.collapsed {
+    background-color: #0056b3;
+  }
+
+  .section-navigation.collapsed {
+    display: none;
+  }
+}

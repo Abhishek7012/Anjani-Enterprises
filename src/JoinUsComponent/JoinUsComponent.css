@@ -1,0 +1,30 @@
+/* JoinUsComponent.css */
+
+.join-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .join-us h2 {
+    color: #007bff;
+  }
+  
+  .join-us p {
+    margin-bottom: 20px;
+  }
+  
+  .join-us button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .join-us button:hover {
+    background-color: #0056b3;
+  }
+  

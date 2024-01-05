@@ -1,0 +1,26 @@
+/* MissionComponent.css */
+
+/* Container styling */
+.mission-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  /* Right side text styling */
+  .mission-text {
+    color: #343a40;
+  }
+  
+  /* Left side image styling */
+  .mission-image {
+    width: 45%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Image hover effect */
+  .mission-image:hover {
+    transform: scale(1.1);
+  }
+  
