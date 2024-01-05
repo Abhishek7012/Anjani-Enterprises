@@ -17,7 +17,7 @@ const FooterComponent = () => {
               <strong>Email:</strong> info@quixpay.in
             </p>
             <p>
-              <strong>Address:</strong> 123 Main Street, Cityville, Country
+           <a href="https://www.google.com/maps/dir/22.7632451,75.9114716/quintus+tech+pvt.+ltd/@22.7562074,75.892987,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39631d66b1470cd9:0x71666e1ea8060b5f!2m2!1d75.8950892!2d22.7489242?entry=ttu" target="_blank" rel="noopener noreferrer"> <strong>Get Direction</strong> </a>
             </p>
           </div>
           <div className="col-md-4">
@@ -36,9 +36,9 @@ const FooterComponent = () => {
           </div>
           <div className="col-md-4">
             <h3>Linked Account</h3>
-            <p>
+            {/* <p>
               <a href="https://www.linkedin.com/company/quintustech/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-            </p>
+            </p> */}
             <p>
               <strong> Portfolio Download : </strong>
               <a href="https://abhishek7012.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">iOS</a> |
