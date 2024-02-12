@@ -2,8 +2,8 @@ import React from 'react'
 import AboutUs from '../Aboutus/AboutUs'
 import MissionComponent from '../MissionComponent/MissionComponent'
 import PaymentService from '../ServicesComponent/PaymentService'
-import OurTeamComponent from '../Our Team/OurTeamComponent'
-import JoinUsComponent from '../JoinUsComponent/JoinUsComponent'
+// import OurTeamComponent from '../Our Team/OurTeamComponent'
+// import JoinUsComponent from '../JoinUsComponent/JoinUsComponent'
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
       <AboutUs/>
       <MissionComponent/>
       <PaymentService/>
-      <OurTeamComponent/>
-      <JoinUsComponent/>
+      {/* <OurTeamComponent/> */}
+      {/* <JoinUsComponent/> */}
           </div>
   )
 }

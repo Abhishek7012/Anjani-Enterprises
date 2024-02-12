@@ -6,14 +6,9 @@ const AboutUs = () => {
   return (
     <div className="about-section">
       <div className="about-text">
-        <h2>About QUIXPAY</h2>
+        <h1>ABOUT US</h1>
         <p>
-          Here at QUIXPAY, we're revolutionizing the use and accessibility of financial services.
-          Our company was founded to empower people and organizations with creative financial solutions.
-          We use state-of-the-art technology to expedite, personalize, and simplify financial transactions.
-          Our goal is to close the gap that exists between conventional financial services and cutting-edge,
-          technologically advanced solutions. Our goal is to establish a smooth and inclusive financial ecosystem
-          by fusing the most recent technological developments with our wealth of financial knowledge.
+        Welcome to <strong>Anjani Enterprises</strong>, where we're dedicated to ushering in a greener future by providing end-to-end solutions for the renewable energy industry. As governments and organizations globally emphasize the urgency of reducing our reliance on fossil fuels, we're here to answer the call. Our experienced team is committed to meeting the needs of our customers by delivering seamless project operations and addressing the increasing demands of compliance. Join us in our mission to make a positive impact on the world through sustainable energy solutions.
         </p>
       </div>
       <div className="about-image">

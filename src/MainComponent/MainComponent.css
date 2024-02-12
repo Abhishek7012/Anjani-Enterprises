@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 20px 0px 20px;
-  background-color: #ff8c00;
+  padding: 0px 20px 0px 20px;
+  background-color: #232128;
   position: relative;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .section-logo img {
-  width: 50px;
-  max-width: 50px;
+  width: 120px;
+  max-width: 120px;
   height: auto;
 }
 
@@ -60,12 +60,13 @@
 }
 
 .section-navigation a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 .section-navigation a:hover {
   text-decoration: underline;
+color: #00b4d8;
 }
 
 .toggle-button {
@@ -114,10 +115,7 @@
   .section-logo{
     background-color: red;
   }
-  /* .main-section {
-    flex-direction: column;
-    
-  } */
+ 
 
   .section-navigation {
     margin-top: 10px;

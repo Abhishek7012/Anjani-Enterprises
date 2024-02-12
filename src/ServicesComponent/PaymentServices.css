@@ -64,8 +64,26 @@
 }
 
 .payment-section img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
+/* BulletPoints.css */
+.arrow-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.arrow-bullets li {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 50px; /* Adjust the line height to increase space between lines */
+  text-align: justify;
+}
+
+.arrow-bullets li:before {
+  content: '➜'; /* Unicode for arrow icon */
+  margin-right: 8px; /* Adjust spacing between arrow and text */
+}
+
+
 
 @media (max-width: 768px) {
   .main-heading h1 {

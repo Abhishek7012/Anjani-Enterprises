@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './MainComponent.css';
-import logoImage from '../images/quint_logo.jpg';
+import logoImage from '../images/anjanilogo.png';
 import { NavLink } from 'react-router-dom';
 
 const MainComponent = () => {
@@ -17,7 +17,7 @@ const MainComponent = () => {
   return (
     <div className={`main-section ${menuOpen ? 'menu-open' : ''}`}>
       <div className="section-logo">
-        <a href="https://www.linkedin.com/company/quintustech/" className="section-logo">
+        <a href="/" className="section-logo">
           <img src={logoImage} alt="Logo" />
         </a>
       </div>
@@ -53,7 +53,7 @@ const MainComponent = () => {
               Services
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/ourteam" onClick={closeMenu}>
               Our Team
             </NavLink>
@@ -62,7 +62,7 @@ const MainComponent = () => {
             <NavLink to="/joinus" onClick={closeMenu}>
               Join Us
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/contact" onClick={closeMenu}>
               Contact Us
